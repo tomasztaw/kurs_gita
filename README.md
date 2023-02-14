@@ -6,4 +6,5 @@ Na pewno bardzo mi się przyda.
 
 Dodatkowa zmiana dla testu.
 
+ZMIANA DOKONYWANIA W FIRST_BRANCH
 

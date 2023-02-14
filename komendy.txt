@@ -1,12 +1,12 @@
 Utorzenie/inicjacja
-	git init 	- tworzenie nowego repo w katalogu w którym została wydana
+	git init 		- tworzenie nowego repo w katalogu w którym została wydana
 
 Klonowanie:
 	git clone <nazwa repozytorium>  np: git@github.com:tomasztaw/kurs_gita.git
 
 Sprawdzanie plików w workspace:
 	git status
-	git status -uall		- pokazuje wszystkie zmiany w katalogach
+	git status -uall	- pokazuje wszystkie zmiany w katalogach
 
 Konfiguracja na "tym" systemie:
 	git config --global user.name <nazwa/alias>
@@ -20,5 +20,11 @@ Dodawanie plików do śledzenia:
 Komit:
 	git commit -m "treść komitu"
 
+Branch/gałęźie:
+	git branch		- sprawdzanie dostępnych gałęzi
+	git branch <nazwa>	- tworzenie brancha
+	git checkout <nazwa>	- przełańczanie się na konkretnego brancha
+	git checkout -		- powrót na poprzedniego brancha
+	git checkout -b <nazwa> - tworzenie i jednoczesne przepięcie się na brancha
 
 
