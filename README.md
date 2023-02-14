@@ -8,3 +8,5 @@ Dodatkowa zmiana dla testu.
 
 ZMIANA DOKONYWANIA W FIRST_BRANCH
 
+And third branch
+
