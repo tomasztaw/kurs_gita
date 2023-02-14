@@ -16,3 +16,7 @@ Dodawanie plików do śledzenia:
 	git add . 		- dodanie wszystkich plików w katalogu
 	git add -A		- 	-----||-----
 
+Komit:
+	git commit -m "treść komitu"
+
+

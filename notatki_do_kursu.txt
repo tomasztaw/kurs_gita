@@ -6,4 +6,7 @@ Dobrze jest skonfigurować konto:
 	git config --global user.name <nazwa/alias>
 	git config --global user.email <twoj email na githubie>
 
+Komity dobrze jest pisać po angielsku, żeby ewentualny zespół coś mógł zrozumieć.
+Należy w wiadomości podać numer zadania, ułatwia to potem odnalezienie zmian.
+
 
