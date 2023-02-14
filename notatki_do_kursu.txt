@@ -10,3 +10,14 @@ Komity dobrze jest pisać po angielsku, żeby ewentualny zespół coś mógł zr
 Należy w wiadomości podać numer zadania, ułatwia to potem odnalezienie zmian.
 
 
+		GIT_IGNOR
+Warto zadbać o plik gitignor. Jest to związane z szybkością komunikacji z repozytorium.
+Dodatkowo można po tym poznać, że ktoś używa gita świadomie i dba o szczegóły
+	Na github jest repozytorium z szablonami dla lepszego i szybszego skonfigurowania .gitignor
+	-- github/gitignore --
+	lub poszykać "www.gitignore.io"
+Odonśnie odpowiednich wzorców można sprawdzić stronę:
+	atlassian git ignore pattern
+
+
+
