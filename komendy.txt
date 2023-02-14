@@ -30,3 +30,9 @@ Branch/gałęźie:
 Rysowanie grafa w konsoli:
 	git log --oneline --graph --all		- logowanie, nagłówek, graf, dla wszystkiego
 
+Merdzowanie/łączenie gałęźi:
+	git merge <nazwa brancha>	- należy pamiętać o tym, że musimy być na branch do którego chcemy przyłączyć zmiany !!!
+
+
+
+

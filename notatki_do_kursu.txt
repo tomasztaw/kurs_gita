@@ -20,4 +20,7 @@ Odonśnie odpowiednich wzorców można sprawdzić stronę:
 	atlassian git ignore pattern
 
 
+Jeżeli robimy -merdza- to należy przełączyć się na gałąź do krórej będziemy przyłańczać zmiany
+np. "main" i podajemy w poleceniu jak gałąź ma się złączyć
+
 
