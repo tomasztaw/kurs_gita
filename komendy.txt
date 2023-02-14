@@ -27,4 +27,6 @@ Branch/gałęźie:
 	git checkout -		- powrót na poprzedniego brancha
 	git checkout -b <nazwa> - tworzenie i jednoczesne przepięcie się na brancha
 
+Rysowanie grafa w konsoli:
+	git log --oneline --graph --all		- logowanie, nagłówek, graf, dla wszystkiego
 
