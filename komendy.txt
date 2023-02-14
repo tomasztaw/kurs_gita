@@ -1,0 +1,18 @@
+Utorzenie/inicjacja
+	git init 	- tworzenie nowego repo w katalogu w którym została wydana
+
+Klonowanie:
+	git clone <nazwa repozytorium>  np: git@github.com:tomasztaw/kurs_gita.git
+
+Sprawdzanie plików w workspace:
+	git status
+
+Konfiguracja na "tym" systemie:
+	git config --global user.name <nazwa/alias>
+	git config --global user.email <twoj email z githuba>
+
+Dodawanie plików do śledzenia:
+	git add <nazwa pliku>	- dodanie pojedyńczego pliku
+	git add . 		- dodanie wszystkich plików w katalogu
+	git add -A		- 	-----||-----
+

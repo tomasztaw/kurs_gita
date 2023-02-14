@@ -1,0 +1,9 @@
+Dobrze jest robić brancze dla każdego zadania. Wtedy nie powinna być wiele konfliktów.
+
+Commity należy robić w miarę często, powiedzmy 2-3 razy dziennie.
+
+Dobrze jest skonfigurować konto:
+	git config --global user.name <nazwa/alias>
+	git config --global user.email <twoj email na githubie>
+
+
