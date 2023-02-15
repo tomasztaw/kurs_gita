@@ -33,6 +33,17 @@ Rysowanie grafa w konsoli:
 Merdzowanie/łączenie gałęźi:
 	git merge <nazwa brancha>	- należy pamiętać o tym, że musimy być na branch do którego chcemy przyłączyć zmiany !!!
 
+Chowanie do schowka:
+	git stach		- schowanie do schowka obecnych zmian
+	git stach list		- sprawdzenie zawartości schowka
+	
+	git stash apply		- pobranie pierwszych zmian z góry z pozostawieniem ich na liście
+	git stash pop		- pobranie zmian z góry i usunięcie z listy staszów
+	git stash pop stash@{n} - pobrnie konkretknego stasza wraz z usunięciem
+	git stash drop		- usuniecie stasza
+	git stash clear		- usuniecie wszystkich staszów
+
+
 
 
 
