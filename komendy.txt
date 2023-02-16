@@ -50,4 +50,10 @@ Usuwanie/cofanie się:
 	git reset {id} --soft   -  ---- || ----  + pliki już w stejdzingu
 	git reset {id} --hard   - trwałe usunięcie komitów po danym id !!!!
 
+Zmiana nazwy komitu:
+	git commit --amend -m <nowa nazwa>	- nadpisuje nazwę i id komitu
+
+Rebase/kilka zmian jednocześnie:
+	git rebase -i HEAD~{n} 		- otwarcie edytora z listą ostanich n-ilości komitów
+
 
