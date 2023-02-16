@@ -44,6 +44,10 @@ Chowanie do schowka:
 	git stash clear		- usuniecie wszystkich staszów
 
 
-
+Usuwanie/cofanie się:
+	git revert {id} 	- cofnięcie się do komintu o danym id
+	git reset {id}		- powrót do stanu komitu o danym id + pliki do dodania
+	git reset {id} --soft   -  ---- || ----  + pliki już w stejdzingu
+	git reset {id} --hard   - trwałe usunięcie komitów po danym id !!!!
 
 
