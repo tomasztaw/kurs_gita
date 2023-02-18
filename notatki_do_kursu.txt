@@ -26,5 +26,9 @@ np. "main" i podajemy w poleceniu jak gałąź ma się złączyć
 Dobre praktyki nazewnictwa commitów:
 	- podzielić na tytył i zawartość
 	- limitowanie znaków w tytule (zwieńźle i na temat) mniej niż 50 znaków
-	-  
+	- zaczynamy od wielkiej litery dla lepszej czytelności
+	- nie stawiamy kropki na końcu tytułu (na końcu opisu możemy dać)
+	- używamy trybu rozkazującego, zwiększa to czytelność jednocześnie zmiejsza ilość znaków
+	- co i dlaczego zostało zmienione => opis (umieszczamy numery zadań jeżeli są)
+
 	
