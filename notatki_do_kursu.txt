@@ -23,4 +23,7 @@ Odonśnie odpowiednich wzorców można sprawdzić stronę:
 Jeżeli robimy -merdza- to należy przełączyć się na gałąź do krórej będziemy przyłańczać zmiany
 np. "main" i podajemy w poleceniu jak gałąź ma się złączyć
 
-
+Dobre praktyki nazewnictwa commitów:
+	- podzielić na tytył i zawartość
+	- 
+	
