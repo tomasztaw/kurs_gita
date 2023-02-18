@@ -56,4 +56,17 @@ Zmiana nazwy komitu:
 Rebase/kilka zmian jednocześnie:
 	git rebase -i HEAD~{n} 		- otwarcie edytora z listą ostanich n-ilości komitów
 
+Logowanie:
+	git log --author=<nazwa>	- wyświetlanie logów konkretnego autora
+	git log --before="2022-02-02"	- wyświetlanie logów przed podaną datą
+	git log --after="2022-01-01"	- wyświetlanie logów po podanej dacie
+	git log --after --before	- konkretna czasoprzeszczeń
+	git log -p			- wyświetlanie bardziej szczegółowych logów
+	git log -stat			- logi wraz z statystykami
+	git log --oneline		- wyświetlanie samych tytułów
+	git log --graph			- graficzne pokazanie gałęźi
+	git log --pretty		- możliwość konkretnego formatowania wyświetlanych informacji
+	git log --grep			- wyszukiwanie logów po tekście dopasowania
+	git log -- [nazwa]		- szukanie konkretnej nazwy po spacji
+
 
