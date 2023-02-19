@@ -10,4 +10,4 @@ ZMIANA DOKONYWANIA W FIRST_BRANCH
 
 And third branch
 
-1 2
+1 2 3
