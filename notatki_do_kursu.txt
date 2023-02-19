@@ -31,4 +31,8 @@ Dobre praktyki nazewnictwa commitów:
 	- używamy trybu rozkazującego, zwiększa to czytelność jednocześnie zmiejsza ilość znaków
 	- co i dlaczego zostało zmienione => opis (umieszczamy numery zadań jeżeli są)
 
+
+Komenda git reflog pokazuje nam wszystkie zmiany i komity w lokalnym repo, tak więc możemy mieć dostęp do komitów
+jakich już nie ma w git log - bardzo przydatna funkcja, warto pamiętać!
+
 	

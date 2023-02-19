@@ -69,4 +69,7 @@ Logowanie:
 	git log --grep			- wyszukiwanie logów po tekście dopasowania
 	git log -- [nazwa]		- szukanie konkretnej nazwy po spacji
 
+Logowanie do CAŁEJ histori zmian na lokalnym repo:
+	git reflog		- cała historia zmian
+	git reflog -{n}		- ostanie n(ilość) zmian w całej historii
 
