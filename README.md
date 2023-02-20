@@ -11,6 +11,6 @@ ZMIANA DOKONYWANIA W FIRST_BRANCH
 And third branch
 
 1 2 3
-
+// tutaj będzie metoda testowa
 New pull request test
 
