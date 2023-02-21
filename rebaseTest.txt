@@ -2,5 +2,5 @@ Commit to marge 1
 
 Commit to marge 2
 
-Commit new 3
+Commit to merge 3
 
