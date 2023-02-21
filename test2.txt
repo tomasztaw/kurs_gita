@@ -1,4 +1,4 @@
-Feature commit new 1
+Feature commit to merge 1
 
 Feature commit new 2
 
