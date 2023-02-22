@@ -78,4 +78,9 @@ Merge/rebase:
 	git rebase [nazwa_brancha] 	- wyrównywanie commitów np. do gałęźi main =>  (moja_gałąź):git rebase main
 	git marge  [nazwa_brancha]	- połączenie gałęzi np z main do [moje_zmiany] => (main):git merge moje_zmiany
 
+Squash komitów:
+	git rebase -i HEAD~{n} 		- squash dla ostatnich n komitów
+	git rebase -i [#komita]		- squash dla komitów występujących po podanym
+	git merge --squash [nazwa brancha]	- przygotowanie merge wraz z squashem danej gałęźi (po wykonaniu tej komendy musimy
+						zrobić commit)
 
