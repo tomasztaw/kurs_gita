@@ -36,3 +36,9 @@ Komenda git reflog pokazuje nam wszystkie zmiany i komity w lokalnym repo, tak w
 jakich już nie ma w git log - bardzo przydatna funkcja, warto pamiętać!
 
 	
+Rebase to wyrównywaie commitów, najlepiej przy merdzowaniu zmian zrobić rebase z gałęźią main to powinna ułatwić nam rozwiązywnai
+konfliktó i jednocześnie commity na gałęźi main są łatwiejsze przy debagowaniu błędów.
+Rebase także zabezpiecza przed sytuacją, gdzy kilka osób pracuje na tym samym kodzie i jednocześnie wprowadza zminay
+
+
+

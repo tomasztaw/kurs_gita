@@ -73,3 +73,9 @@ Logowanie do CAŁEJ histori zmian na lokalnym repo:
 	git reflog		- cała historia zmian
 	git reflog -{n}		- ostanie n(ilość) zmian w całej historii
 
+
+Merge/rebase:
+	git rebase [nazwa_brancha] 	- wyrównywanie commitów np. do gałęźi main =>  (moja_gałąź):git rebase main
+	git marge  [nazwa_brancha]	- połączenie gałęzi np z main do [moje_zmiany] => (main):git merge moje_zmiany
+
+
