@@ -83,4 +83,5 @@ Squash komitów:
 	git rebase -i [#komita]		- squash dla komitów występujących po podanym
 	git merge --squash [nazwa brancha]	- przygotowanie merge wraz z squashem danej gałęźi (po wykonaniu tej komendy musimy
 						zrobić commit)
-
+Cherry-pick/kopiowanie komitów:
+	git cherry-pick [#commitu] 	- skopiowanie/zaciągnięcie komitu z innej gałęźi do siebie
