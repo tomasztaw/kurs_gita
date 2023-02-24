@@ -85,3 +85,18 @@ Squash komitów:
 						zrobić commit)
 Cherry-pick/kopiowanie komitów:
 	git cherry-pick [#commitu] 	- skopiowanie/zaciągnięcie komitu z innej gałęźi do siebie
+
+
+Tagowanie:
+	git tag 			- wyświetlanie tagów
+	git tag v1.0.0			- przypisywanie tagu do obecnego komitu/miejsca gałęźi
+	git show v1.0.0			- wyświetalnie opisu/informacji
+	git tag v0.9.0 [#commitu]	- przypisywanie tagu do konkretnego commitu
+	git tag -f v0.9.0 [#commitu]	- przypisanie istniejącego tagu do jakiegoś innego commitu (np. jak się pomyliliśmy)
+	git v0.10.0 [#] -a -m "*****"	- tworzenie tagu wraz z autorem i wiadomością
+	git checkout v0.10.0		- przepięcie się na konkretny tag
+	git push origin v1.0.0		- wypchnięcie tagu na zewnętrzne repo
+	git push --tags			- wypchnięcie wszystkich tagów na zwenętrzne repo
+	git -d v0.9.0 			- usunięcie tagu z wewnętrznego repo (jeżeli jest na zewnętrznym to tam najpierw trzeba usunąć)
+	git push -d origin v0.9.0	- usunięcie tagu z zewnętrznego repo
+
