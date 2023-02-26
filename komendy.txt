@@ -100,3 +100,8 @@ Tagowanie:
 	git -d v0.9.0 			- usunięcie tagu z wewnętrznego repo (jeżeli jest na zewnętrznym to tam najpierw trzeba usunąć)
 	git push -d origin v0.9.0	- usunięcie tagu z zewnętrznego repo
 
+Aliasy:
+	git config --local alias.[nowaAlias] [komenda]	- nadawanie nowej/własnej nazwy dla jakiś komend, jeżeli jest kilkuczęściowa to dajemy w ""
+	git config --local alias.st status		- nadanie nowej/skróconej nazwy dla polecenia git status
+	git config --local alias.logpretty "log --oneline --decorator --graph --all"	- przypisnie długiego polecenia do krótkiej nazwy "logpretty"
+
